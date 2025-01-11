@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+	<title>Gym Website (Sameer Gaba)</title>
+</head>
+<body>
+	<div class="header">
+		<img id="logo" src="{{ url_for('static',filename='./gym_Logo-removebg-preview.png') }}" alt="logo">
+		<a href="#"> Home </a>
+		<a href="#"> Membership </a>
+		<a href="#"> About Us </a>
+		<a href="#"> Contact Us  </a>
+	</div>
+	<div id="banner">
+		<img id="first" src="{{ url_for('static',filename='./Untitled (1200 x 400 px).jpg')}}" alt="gym">
+	</div>
+	<div id="afterbanner" >
+		<h1 id="ABOUT US"></h1>
+		<p>we believe fitness is for everyone. Whether youre a beginner or a seasoned athlete,<br>we’re here to guide you every step of the way.</p>
+
+	</div>
+</body>
+</html>
